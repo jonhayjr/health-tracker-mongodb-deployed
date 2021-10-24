@@ -50,7 +50,7 @@ const Notes = ({onClick, showAddTask}) => {
                     <p>{Moment(note.date).format('MMMM Do YYYY')}</p>
                 </div>
                 <ul className="list-group list-group-flush">
-                    <li className="list-group-item" value={note.diet}></li>
+                    <li className="list-group-item">Diet: {note.diet}</li>
                     <li className="list-group-item">Mood: {note.mood}</li>
                     <li className="list-group-item">Symptoms: {note.symptoms}</li>
                     <li className="list-group-item">Exercise: {note.exercise}</li>
