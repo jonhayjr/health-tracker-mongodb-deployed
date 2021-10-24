@@ -1,0 +1,13 @@
+.note-container {
+    max-width: 875px; /*200px * 4 = 800px which leaves 75px for grid spacing*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 3rem;
+  }

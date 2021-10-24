@@ -1,0 +1,13 @@
+.button {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.75rem;
+    width: 15%;
+    margin: auto;
+    border: none;
+    color: ghostwhite;
+    cursor: pointer;
+}
